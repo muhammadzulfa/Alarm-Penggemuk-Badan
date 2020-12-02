@@ -1,0 +1,58 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+html,
+body {
+   font-family: 'Roboto', sans-serif;
+}
+
+.card {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   margin: 25px auto;
+   padding: 30px;
+   width: fit-content;
+   height: fit-content;
+   color: #fff;
+   background-color: #2B8CFF;
+   border-radius: 5px;
+}
+
+h1 {
+   margin-bottom: 25px;
+}
+
+#waktu {
+   padding: 10px;
+   color: #2B8CFF;
+   background-color: #fff;
+   border-radius: 10px;
+}
+
+p {
+   width: fit-content;
+   padding: 5px 8px;
+   margin-bottom: 5px;
+   border-radius: 5px;
+}
+
+p.active {
+   animation: bg-blink 2s linear infinite;
+}
+
+@keyframes bg-blink {
+   0% {
+      background-color: #fff;
+      color: #2B8CFF;
+   }
+
+   100% {
+      background-color: transparent;
+      color: #fff;
+   }
+}
